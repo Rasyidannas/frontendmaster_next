@@ -10,7 +10,7 @@ const Home = async () => {
   console.log('data', data)
   
   return <div>
-    <NewTodoForm onChange={() => console.log('hello')} />
+    <NewTodoForm />
   </div>
 }
 

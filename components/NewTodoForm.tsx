@@ -2,7 +2,7 @@
 
 import { useState } from "react"
 
-const NewTodoForm = ({ onChange }) => {
+const NewTodoForm = () => {
   const [state, updateState] = useState("")
 
   return <div>
