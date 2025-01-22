@@ -1,5 +1,7 @@
+import styles from './style.module.css'
+
 const DocsIdPage = ({ params }) => {
-  return <div>id { params.id }</div>
+  return <div className={styles.title}>id { params.id }</div>
 }
 
 export default DocsIdPage
